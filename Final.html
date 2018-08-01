@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="Website.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Karla|Quicksand|Roboto+Mono" rel="stylesheet">
+</head>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffff66;
+}
+
+li {
+    float: left;
+    border-right:1px solid #ffff80;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff8533;
+}
+
+
+/* Style the header */
+.header {
+    background-color: #ffe066;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    color: #cc6600
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 1000px; /* Should be removed. Only for demonstration */
+    background-color: #ffffff
+}
+
+/* Left and right column */
+#side {
+    width: 25%;
+}
+
+/* Middle column */
+#middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #ffff80;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+ h3{
+
+  color: black;
+
+
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+h4 {
+font-family: 'Roboto Mono', monospace;
+font-weight: lighter;
+
+
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Fashion</a></li>
+  <li><a href="#contact">Inspiration</a></li>
+  <li style="float:right"><a href="#about">Concert</a></li>
+</ul>
+
+
+
+
+
+
+
+
+<div class="header">
+  <marquee behavior= "left"><center><strong><h1>Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------Full Circle------ Full Circle------ Full Circle------Full Circle------Full Circle------</h1></marquee></center>
+</div>
+
+
+<div class="header">
+  <h2>Inspiration</h2>
+</div>
+
+
+<div class="row">
+  <div class="column" id= "side" style="background-color:#ffffb3;">
+    <h3>Greetings!</h3>
+
+    <!DOCTYPE: this will help with the text that will be expressed on the bottom of the various columns>
+
+
+<p><h4> For many people, art, thoughts, and dreams captivate our minds. We want to do something cool, or simply do something to pass time. There are many ways of gaining inspiration from objects, places, or events.</h4></p>
+
+<section> <h4>"Explore what you can, and love what you find."</h4>
+</section>
+
+<section><h4> "There are places awaiting your company, you never know what may happen to you!"</h4>
+</section>
+
+<!DOCTYPE: image #1>
+<img src ="landscape.jpg" alt="Trulli" width="222" height="222"/>
+</div>
+
+
+
+
+
+  <div class="column" id="middle" style="background-color:#ffff99;">
+    <h3>Ideas and Tips</h3>
+
+    <!DOCTYPE this is going to be the middle paragrap>
+    <p><h4> There are many strategies to help calm down that busy mind of yours.</h4></p>
+<section>
+  <h3> Explore New Places!</h3>
+  <p> <h4>  Consider going to new places nearby. There's no need to go out of the city! Go to a big park, take note of the plants, the wild animals, and scenary you notice. This is especially good for the artists in search of a good scene to draw. </h4></p>
+</section>
+<section>
+  <h3> Look for a New Nobby!</h3>
+  <p><h4> Always wanted to try something new? Take the risk! Go and learn to ride a bike, draw something new, or even try out a new kind of food. Try out a new film series. Read a new book whether old or new.</h4> </p>
+<section>
+  <h3> Join a club!</h3>
+  <p><h4> There are endless opportunities to nuture your passion, or a new thing you want to try out! Search out in your area, or go far to search for groups, clubs, or communities. There are SEVERAL sujects that take place in multiple comitees, the most popular focusing on art, dance, coding, some community service here and there, etc.</h4></p>
+</section>
+
+<section>
+  <h4> "Your limit is the world. No one can stop you ,but you!"</h4>
+</section>
+
+<section><h4>"Go on and explore!!"</h4></section>
+
+    <img src="greenhills.jpg" alt="greenhills" width="222" height="222"/>
+  </div>
+<!DOCTYPE: Image #2>
+
+
+
+
+
+
+
+  <div class="column" id="side" style="background-color:#ffffb3;">
+    <h3>What I have to say:</h3>
+
+    <!DOCTYPE: This is going to be the paragraph that follows along with the third segment.>
+<section>
+  <p><h4> "One must be able to not be afraid to discover and explore areas. There are opportunities waiting to be opened by your curious hands."</h4></p>
+</section>
+
+
+<!DOCTYPE:Image#3>
+
+
+<img src="drawing.jpg" alt="drawing" width="222" height="222"/>
+
+
+</div>
+
+
+</body>
+</html>
